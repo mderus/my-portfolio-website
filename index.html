@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateusz Derus</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="160x160" href="images/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="images/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+    <link rel="apple-touch-icon" href="images/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/favicon-144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="block"></div>
+      <nav class="navbar">
+        <div class="logo"><a href="#home"><img src="images/logo.png" alt="" /></a></div>
+        <button class="openMenu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+          <div class="navClose">
+            <button class="closeMenu"><i class="fa fa-times"></i></button>
+          </div>
+        </ul>
+      </nav>
+      <section id="home" class="home">
+        <h1 class="main-title">
+          Hi,<br />
+          I'm Matt,<br />
+          Frontend Developer
+        </h1>
+        <a href="#contact">Contact me!</a>
+      </section>
+
+      <section id="about" class="about">
+          <div class="text">
+            <h2>About me</h2>
+              <p>
+                Hi, my name is Mateusz Derus.<br />
+                I am Frontend Developer based in Poland. <br />
+                I wrote my first 'Hello, World!' in June 2021. <br />
+                It's my tech stack.
+              </p>
+          </div>
+          <div class="stack">
+            <img src="https://img.icons8.com/color/100/000000/html-5--v1.png"/>
+            <img src="https://img.icons8.com/color/100/000000/css3.png"/>
+            <img src="https://img.icons8.com/color/100/000000/javascript--v1.png"/>
+            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/100/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"/>
+          </div>
+      </section>
+
+      <section id="projects" class="projects">
+          <h2>My Projects</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h3>JS Todo App</h3>
+                <img src="images/portfolio1.jpg" alt="" class="img">
+                <div class="links">
+                  <a href="https://github.com/mderus/todoapp-js" target="_blank">Repository</a>
+                  <a href="https://mderus.github.io/todoapp-js/" target="_blank">Live Site</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3>HTML/CSS Design</h3>
+                  <img src="images/portfolio2.jpg" alt="" class="img">
+                  <div class="links">
+                    <a href="https://github.com/mderus/Wine-Landing-Page" target="_blank">Repository</a>
+                    <a href="https://mderus.github.io/Wine-Landing-Page/" target="_blank">Live Site</a>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="wrapper">
+          <h2>Contact me</h2>
+          <a href="tel:+48 720 800 929" class="link"> <i class="fas fa-phone"></i>+48 720 800 929</a>
+          <a href="mailto:mateuszderus01@gmail.com" class="link"><i class="fas fa-envelope"></i>mateuszderus01@gmail.com</a></p>
+          <div class="socials">
+            <a href="https://github.com/mderus" target="_blank"><i class="fab fa-github"></i></i></a>
+            <a href="https://www.linkedin.com/in/mateusz-derus-38748b200/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.behance.net/mateuszde" target="_blank"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
