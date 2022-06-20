@@ -43,5 +43,5 @@ function close() {
 }
 
 if (navigator.userAgent.match(/Mobile/)) {
-  headingTitle.innerHTML = `Hi, <br/> I'm Matt, <br/> Frontend Dev`;
+  headingTitle.innerHTML = `Hi, <br/> I'm Matt, <br/> Web Dev`;
 }
