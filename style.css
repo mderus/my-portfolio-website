@@ -167,10 +167,11 @@ section p {
 }
 
 .about .stack {
-  width: 50%;
+  width: 60%;
   /* background-color: red; */
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .about .text p {
@@ -186,22 +187,6 @@ section p {
 
 .about .stack i {
   font-size: 150px;
-}
-
-.about .stack i:nth-of-type(1) {
-  color: #e34c26;
-}
-
-.about .stack i:nth-of-type(2) {
-  color: #2965f1;
-}
-
-.about .stack i:nth-of-type(3) {
-  color: #f0db4f;
-}
-
-.about .stack i:nth-of-type(4) {
-  color: #61dbfb;
 }
 
 /* -------------------------------------- PROJECTS */
@@ -324,6 +309,9 @@ div.swiper-button-next {
 /* ------------------------------------------------------------ MEDIA QUERIES */
 
 @media screen and (max-width: 1600px) {
+  .about .stack {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 1400px) {
