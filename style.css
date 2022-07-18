@@ -246,8 +246,12 @@ section p {
   transition: 0.3s;
 }
 
-.swiper-slide .links a:first-of-type {
+.swiper-slide .links a {
   margin-right: 20px;
+}
+
+.swiper-slide .links a:last-of-type {
+  margin-right: 0;
 }
 
 .swiper-slide .links a:hover {
